@@ -1,2 +1,2 @@
-# cautious-robot
-A WIP sidescroller. The name was suggested by GitHub. 
+# Curious Robot
+A WIP sidescroller. Not much but a plan so far, all help appreciated :)
