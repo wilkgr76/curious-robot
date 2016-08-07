@@ -13,6 +13,7 @@ screen.fill(background_colour)
 ground = pygame.image.load('stuff/textures/ground.png') 
 grass = pygame.image.load('stuff/textures/grass.png')
 
+
 #screen.blit(ground,(50,100))
 #screen.blit(grass,(50,100))
 pygame.display.flip()
@@ -28,7 +29,7 @@ pygame.display.flip()
 
 n = 1
 
-while n < 5: # No. of blocks to be rendered atm is 14
+while n < 7: # No. of blocks to be rendered atm is 14
   n = n+1     # Increase n by 1, don't want an endless loop
   i = 0
   w = random.randint(3,5) # w is width of platform
