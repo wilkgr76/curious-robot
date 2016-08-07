@@ -29,15 +29,15 @@ pygame.display.flip()
 
 n = 1
 
-while n < 7: # No. of blocks to be rendered atm is 14
+while n < 6: # No. of blocks to be rendered atm
   n = n+1     # Increase n by 1, don't want an endless loop
   i = 0
   w = random.randint(3,5) # w is width of platform
-  y = random.randint(0,240) # h is height of platform
-  x = random.randint(0,240) 
+  y = random.randint(0,15) # y is height of platform
+  x = random.randint(0,15) 
   while i < w:
-    screen.blit(ground,(x+tw*i,y))
-    screen.blit(grass,(x+tw*i,y))
+    screen.blit(ground,(tw*x+tw*i,tw*y))
+    screen.blit(grass,(tw*x+tw*i,tw*y))
     i = i+1
 pygame.display.flip()
 running = True
