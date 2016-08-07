@@ -1,12 +1,11 @@
-import pygame
+import random, pygame
 
 background_colour = (255,255,255)
 (width, height) = (256, 256)
 
 screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption('Tutorial 1')
+pygame.display.set_caption('Curious Robot')
 screen.fill(background_colour)
-pygame.display.flip()
 
 # Load Textures
 ground = pygame.image.load('stuff/textures/ground.png') 
@@ -17,15 +16,15 @@ grass = pygame.image.load('stuff/textures/grass.png')
 pygame.display.flip()
 
 i=0
-while i < 256:
-  screen.blit(ground,(i,240))
-  i = i+16
-i=0
-while i < 240:
-  screen.blit(grass,(i,240))
-  i = i+16
-screen.blit(ground,(240,224))
-screen.blit(grass,(240,224))
+#while i < 256:
+#  height = random.randint(0,240)
+#  addgrass = random.randint(0,100)
+#  screen.blit(ground,(i,height))
+#  if addgrass > 50: 
+#    screen.blit(grass,(i,height))
+#  i = i+16
+#i=0
+
 pygame.display.flip()
 running = True
 while running:
