@@ -1,6 +1,6 @@
 import random, pygame
 
-background_colour = (255,255,255)
+background_colour = (208,240,255)
 (width, height) = (256, 256)
 
 tw = 16 # Texture Width
