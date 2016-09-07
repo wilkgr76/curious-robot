@@ -6,3 +6,4 @@ Here are some of my ideas so far:
 - Race mode against AI
 - Endless mode
 
+UPDATE - There's not much going on on the online repository, but this project is NOT dead. I'm trying to get sprites to work.
